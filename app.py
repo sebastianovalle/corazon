@@ -75,11 +75,11 @@ st.subheader("Resultado de la predicción:")
 if prediction[0] == 0:
     st.markdown("<h2 style='color: green;'>0: No sufrirá del corazón 😊</h2>", unsafe_allow_html=True)
     if nosufre_img:
-        st.image(nosufre_img, use_column_width=True)
+        st.image(nosufre_img, use_container_width=True)
 else:
     st.markdown("<h2 style='color: red;'>1: Sufrirá del corazón 😥</h2>", unsafe_allow_html=True)
     if sisufre_img:
-        st.image(sisufre_img, use_column_width=True)
+        st.image(sisufre_img, use_container_width=True)
 
 st.write("") # Espacio
 st.write("Elaborado por: Sebastian Ovalle")
