@@ -19,7 +19,7 @@ except FileNotFoundError:
 
 # Cargar imágenes
 try:
-    cabezote_img = Image.open('cabezote.jpg')
+    cabezote_img = Image.open('fondo.jpg')
     nosufre_img = Image.open('nosufre.jpg')
     sisufre_img = Image.open('sisufre.jpg')
 except FileNotFoundError:
